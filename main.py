@@ -13,7 +13,7 @@ def main():  # function untuk menjalankan main program
     print(
         "\nOpsi:\n1. Add todo\n2. Delete todo\n3. Edit todo\n4. Clear all todo\n5. Mark todo as done\n6. Exit program\n"
     )
-    option = int(input("Input opsi [1/2/3/4/5]: "))
+    option = int(input("Input opsi [1/2/3/4/5/6]: "))
 
     if option == 1:
         addTodo()
